@@ -1,0 +1,7 @@
+{
+  "/pokemon": {
+    "target": "http://express:3000",
+    "secure": false,
+    "changeOrigin": true
+  }
+}

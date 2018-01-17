@@ -1,0 +1,23 @@
+<div class = container>
+  <h1> pokemon list </h1>
+  <table class = "table">
+    <thead>
+      <tr>
+        <th> Pokedex number: </th>
+        <th> Name: </th>
+        <th> Height: </th>
+        <th> Weight: </th>
+        <th> Base Experience </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let pokeman of pokemon">
+        <td>{{pokeman.id}}</td>
+        <td>{{pokeman.identifier}}</td>
+        <td>{{pokeman.height}}</td>
+        <td>{{pokeman.weight}}</td>
+        <td>{{pokeman.base_experience}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
